@@ -1,0 +1,44 @@
+body{
+	font: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+p{
+	position: fixed;
+	padding: 200px;
+	font-size: 30px;
+	color: white;
+}
+.image{
+	background: url("world map.png");
+	background-size: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	filter: blur(3px);
+}
+.color{
+	position: fixed;
+	height: 100px;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	opacity: 0.5;
+}
+.heading{
+	position: fixed;	
+	z-index: 2;
+	color: yellow;
+}
+.nxtlink{
+	position: fixed;
+	padding-top: 400px;
+	padding-left: 45%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
